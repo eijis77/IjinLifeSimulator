@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E7A91DE18CF19D2A1542898 /* Pods_IjinLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31599722F4C25CEE47A4F682 /* Pods_IjinLifeTests.framework */; };
 		42B4903C26385D0D00F8E90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4903B26385D0D00F8E90E /* AppDelegate.swift */; };
 		42B4903E26385D0D00F8E90E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4903D26385D0D00F8E90E /* SceneDelegate.swift */; };
-		42B4904026385D0D00F8E90E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4903F26385D0D00F8E90E /* ViewController.swift */; };
 		42B4904326385D0D00F8E90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B4904126385D0D00F8E90E /* Main.storyboard */; };
 		42B4904526385D1200F8E90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B4904426385D1200F8E90E /* Assets.xcassets */; };
 		42B4904826385D1200F8E90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B4904626385D1200F8E90E /* LaunchScreen.storyboard */; };
 		42B4905326385D1200F8E90E /* IjinLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4905226385D1200F8E90E /* IjinLifeTests.swift */; };
 		42B4905E26385D1200F8E90E /* IjinLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4905D26385D1200F8E90E /* IjinLifeUITests.swift */; };
+		42B4907B26385DD900F8E90E /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4907A26385DD900F8E90E /* LaunchViewController.swift */; };
+		42B4908026385DF500F8E90E /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4907F26385DF500F8E90E /* FormView.swift */; };
+		42B4908526385E2200F8E90E /* LifeHourglassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4908426385E2200F8E90E /* LifeHourglassView.swift */; };
+		8F5AD9C4B821CFBB42B257DE /* Pods_IjinLife_IjinLifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D9E4EB51450B7CE8AABC98 /* Pods_IjinLife_IjinLifeUITests.framework */; };
+		F1467E237AFF9BB50442C3D8 /* Pods_IjinLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D691A943618118FBCF177F /* Pods_IjinLife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313E1B4C310E302DF8475CF3 /* Pods-IjinLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLifeTests.release.xcconfig"; path = "Target Support Files/Pods-IjinLifeTests/Pods-IjinLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		31599722F4C25CEE47A4F682 /* Pods_IjinLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IjinLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4903826385D0D00F8E90E /* IjinLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IjinLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4903B26385D0D00F8E90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42B4903D26385D0D00F8E90E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42B4903F26385D0D00F8E90E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42B4904226385D0D00F8E90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42B4904426385D1200F8E90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42B4904726385D1200F8E90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 		42B4905926385D1200F8E90E /* IjinLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IjinLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4905D26385D1200F8E90E /* IjinLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IjinLifeUITests.swift; sourceTree = "<group>"; };
 		42B4905F26385D1200F8E90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B4907A26385DD900F8E90E /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		42B4907F26385DF500F8E90E /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		42B4908426385E2200F8E90E /* LifeHourglassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassView.swift; sourceTree = "<group>"; };
+		70D691A943618118FBCF177F /* Pods_IjinLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IjinLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CD765D1772EE42E5CD0C1B /* Pods-IjinLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLife.debug.xcconfig"; path = "Target Support Files/Pods-IjinLife/Pods-IjinLife.debug.xcconfig"; sourceTree = "<group>"; };
+		8948489BD21F597A324A5B6C /* Pods-IjinLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLife.release.xcconfig"; path = "Target Support Files/Pods-IjinLife/Pods-IjinLife.release.xcconfig"; sourceTree = "<group>"; };
+		95BF9BF0A0C358DE4A1AAE30 /* Pods-IjinLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLifeTests.debug.xcconfig"; path = "Target Support Files/Pods-IjinLifeTests/Pods-IjinLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20DD6AD94E5A835D4579378 /* Pods-IjinLife-IjinLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLife-IjinLifeUITests.release.xcconfig"; path = "Target Support Files/Pods-IjinLife-IjinLifeUITests/Pods-IjinLife-IjinLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCB6F7A1A66887F861736A12 /* Pods-IjinLife-IjinLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IjinLife-IjinLifeUITests.debug.xcconfig"; path = "Target Support Files/Pods-IjinLife-IjinLifeUITests/Pods-IjinLife-IjinLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D9E4EB51450B7CE8AABC98 /* Pods_IjinLife_IjinLifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IjinLife_IjinLifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1467E237AFF9BB50442C3D8 /* Pods_IjinLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7A91DE18CF19D2A1542898 /* Pods_IjinLifeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5AD9C4B821CFBB42B257DE /* Pods_IjinLife_IjinLifeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243B2B3386899B8ACC475C37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86CD765D1772EE42E5CD0C1B /* Pods-IjinLife.debug.xcconfig */,
+				8948489BD21F597A324A5B6C /* Pods-IjinLife.release.xcconfig */,
+				BCB6F7A1A66887F861736A12 /* Pods-IjinLife-IjinLifeUITests.debug.xcconfig */,
+				B20DD6AD94E5A835D4579378 /* Pods-IjinLife-IjinLifeUITests.release.xcconfig */,
+				95BF9BF0A0C358DE4A1AAE30 /* Pods-IjinLifeTests.debug.xcconfig */,
+				313E1B4C310E302DF8475CF3 /* Pods-IjinLifeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		42B4902F26385D0D00F8E90E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				42B4905126385D1200F8E90E /* IjinLifeTests */,
 				42B4905C26385D1200F8E90E /* IjinLifeUITests */,
 				42B4903926385D0D00F8E90E /* Products */,
+				243B2B3386899B8ACC475C37 /* Pods */,
+				9807F21C2AF58B2B6F122D64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +135,9 @@
 			children = (
 				42B4903B26385D0D00F8E90E /* AppDelegate.swift */,
 				42B4903D26385D0D00F8E90E /* SceneDelegate.swift */,
-				42B4903F26385D0D00F8E90E /* ViewController.swift */,
+				42B4907A26385DD900F8E90E /* LaunchViewController.swift */,
+				42B4908426385E2200F8E90E /* LifeHourglassView.swift */,
+				42B4907F26385DF500F8E90E /* FormView.swift */,
 				42B4904126385D0D00F8E90E /* Main.storyboard */,
 				42B4904426385D1200F8E90E /* Assets.xcassets */,
 				42B4904626385D1200F8E90E /* LaunchScreen.storyboard */,
@@ -128,6 +164,16 @@
 			path = IjinLifeUITests;
 			sourceTree = "<group>";
 		};
+		9807F21C2AF58B2B6F122D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D691A943618118FBCF177F /* Pods_IjinLife.framework */,
+				F0D9E4EB51450B7CE8AABC98 /* Pods_IjinLife_IjinLifeUITests.framework */,
+				31599722F4C25CEE47A4F682 /* Pods_IjinLifeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B4906226385D1200F8E90E /* Build configuration list for PBXNativeTarget "IjinLife" */;
 			buildPhases = (
+				C653AD0BE86AFFBA83B42174 /* [CP] Check Pods Manifest.lock */,
 				42B4903426385D0D00F8E90E /* Sources */,
 				42B4903526385D0D00F8E90E /* Frameworks */,
 				42B4903626385D0D00F8E90E /* Resources */,
+				9F66D2FB833798D720B3A60A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B4906526385D1200F8E90E /* Build configuration list for PBXNativeTarget "IjinLifeTests" */;
 			buildPhases = (
+				4876F984DFFA6F2683C928C4 /* [CP] Check Pods Manifest.lock */,
 				42B4904A26385D1200F8E90E /* Sources */,
 				42B4904B26385D1200F8E90E /* Frameworks */,
 				42B4904C26385D1200F8E90E /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B4906826385D1200F8E90E /* Build configuration list for PBXNativeTarget "IjinLifeUITests" */;
 			buildPhases = (
+				683AF731C75036FAD6F25945 /* [CP] Check Pods Manifest.lock */,
 				42B4905526385D1200F8E90E /* Sources */,
 				42B4905626385D1200F8E90E /* Frameworks */,
 				42B4905726385D1200F8E90E /* Resources */,
+				49D3D995759554EC12EAF168 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +304,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4876F984DFFA6F2683C928C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IjinLifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D3D995759554EC12EAF168 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IjinLife-IjinLifeUITests/Pods-IjinLife-IjinLifeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IjinLife-IjinLifeUITests/Pods-IjinLife-IjinLifeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IjinLife-IjinLifeUITests/Pods-IjinLife-IjinLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683AF731C75036FAD6F25945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IjinLife-IjinLifeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F66D2FB833798D720B3A60A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IjinLife/Pods-IjinLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IjinLife/Pods-IjinLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IjinLife/Pods-IjinLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C653AD0BE86AFFBA83B42174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IjinLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42B4903426385D0D00F8E90E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B4904026385D0D00F8E90E /* ViewController.swift in Sources */,
+				42B4908526385E2200F8E90E /* LifeHourglassView.swift in Sources */,
 				42B4903C26385D0D00F8E90E /* AppDelegate.swift in Sources */,
+				42B4908026385DF500F8E90E /* FormView.swift in Sources */,
 				42B4903E26385D0D00F8E90E /* SceneDelegate.swift in Sources */,
+				42B4907B26385DD900F8E90E /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +589,7 @@
 		};
 		42B4906326385D1200F8E90E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CD765D1772EE42E5CD0C1B /* Pods-IjinLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +603,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.IjinLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		42B4906426385D1200F8E90E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8948489BD21F597A324A5B6C /* Pods-IjinLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +623,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.IjinLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		42B4906626385D1200F8E90E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BF9BF0A0C358DE4A1AAE30 /* Pods-IjinLifeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +652,7 @@
 		};
 		42B4906726385D1200F8E90E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313E1B4C310E302DF8475CF3 /* Pods-IjinLifeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		42B4906926385D1200F8E90E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB6F7A1A66887F861736A12 /* Pods-IjinLife-IjinLifeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		42B4906A26385D1200F8E90E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20DD6AD94E5A835D4579378 /* Pods-IjinLife-IjinLifeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
